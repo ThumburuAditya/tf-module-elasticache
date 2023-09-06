@@ -12,6 +12,5 @@ variable "port_no" {
   default = 6379
 }
 variable "node_type" {}
-variable "num_cache_nodes" {}
 variable "num_node_groups" {}
 variable "replicas_per_node_group" {}
